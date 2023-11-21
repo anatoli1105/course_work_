@@ -144,6 +144,7 @@ public class Main {
         int count=0;
         for(Employee item:Main.employee2){
             if(item.getDepartament()==i){
+>>>>>>>>> Temporary merge branch 2
                 count++;
             }
         }
@@ -154,6 +155,7 @@ public class Main {
     static Employee [] indexingSalary(double i) {
         for(Employee item:Main.employee2){
             item.setSalary((int )(item.getSalary()*i));
+>>>>>>>>> Temporary merge branch 2
         }
         return employee2;
     }

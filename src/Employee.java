@@ -63,6 +63,16 @@ public class Employee {
         this.departament = departament;
     }
 
+<<<<<<<<< Temporary merge branch 1
+
+
+    @Override
+    public String toString() {
+        String Employee = String.format("%d" +
+                        " %s %s %s %d %d",id, secondName,firstName,
+                surName, salary,departament);
+        return Employee;
+=========
     public int getId() {
         return id;
     }

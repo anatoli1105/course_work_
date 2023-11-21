@@ -71,6 +71,5 @@ public class Employee {
     public String toString() {
         return String.format("%d %s %s %s %d %d", getId() ,secondName,firstName,
                              surName, salary,departament);
-
     }
 }
